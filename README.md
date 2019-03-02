@@ -1,28 +1,28 @@
-(1)³õÊ¼»¯Ò»¸ö²Ö¿â
+(1)åˆå§‹åŒ–ä¸€ä¸ªä»“åº“
 	git init
-(2)Ìí¼ÓÎÄ¼şµ½²Ö¿â
+(2)æ·»åŠ æ–‡ä»¶åˆ°ä»“åº“
 	git add <file1,file2,...>
 	git commit -m <message>
-(3)²é¿´¹¤×÷Çø×´Ì¬
+(3)æŸ¥çœ‹å·¥ä½œåŒºçŠ¶æ€
 	git status
-(4)²é¿´ÎÄ¼şĞŞ¸ÄÇé¿ö
+(4)æŸ¥çœ‹æ–‡ä»¶ä¿®æ”¹æƒ…å†µ
 	git diff <file>
-(5)°æ±¾´©Ëó
-	git reset --hard <commit_id>	ÌØÊâµØ£¬HEAD^,HEAD^^,...
-(6)²é¿´°æ±¾ÀúÊ·
+(5)ç‰ˆæœ¬ç©¿æ¢­
+	git reset --hard <commit_id>	ç‰¹æ®Šåœ°ï¼ŒHEAD^,HEAD^^,...
+(6)æŸ¥çœ‹ç‰ˆæœ¬å†å²
 	git log
-(7)²é¿´ÃüÁîÀúÊ·
+(7)æŸ¥çœ‹å‘½ä»¤å†å²
 	git reflog
-(8)¶ªÆú¹¤×÷ÇøµÄĞŞ¸Ä,»Øµ½×î½üÒ»´Îgit commit»ògit addÊ±µÄ×´Ì¬
+(8)ä¸¢å¼ƒå·¥ä½œåŒºçš„ä¿®æ”¹,å›åˆ°æœ€è¿‘ä¸€æ¬¡git commitæˆ–git addæ—¶çš„çŠ¶æ€
 	git checkout -- <file>
-(9)½«ÎÄ¼ş³·³öÔİ´æÇø
+(9)å°†æ–‡ä»¶æ’¤å‡ºæš‚å­˜åŒº
 	git reset HEAD <file>
-(10)´Ó°æ±¾¿âÖĞÉ¾³ıÎÄ¼ş
-	git rm <file>(Èô±¾µØÒÑ¾­ÏÈÉ¾³ıÎÄ¼ş£¬Ò²¿ÉÓÃgit add <file>)
+(10)ä»ç‰ˆæœ¬åº“ä¸­åˆ é™¤æ–‡ä»¶
+	git rm <file>(è‹¥æœ¬åœ°å·²ç»å…ˆåˆ é™¤æ–‡ä»¶ï¼Œä¹Ÿå¯ç”¨git add <file>)
 	git commit -m <message>
-(11)´´½¨SSH Key
+(11)åˆ›å»ºSSH Key
 	ssh-keygen -t rsa -C "<email>"
-(12)Ìí¼ÓÔ¶³Ì¿â
-	¹ØÁª¸ù¾İgithubÃüÁîÀ´¾ÍĞĞ£¬Ö®ºóÊ¹ÓÃgit push -u origin masterÀ´¸üĞÂ
-(13)¿ËÂ¡Ô¶³Ì¿â
-	ÏÈ½¨Á¢github´úÂë²Ö¿â£¬È»ºóÊ¹ÓÃgit clone git@github.com:qymeng/<²Ö¿âÃû>.git
+(12)æ·»åŠ è¿œç¨‹åº“
+	å…³è”æ ¹æ®githubå‘½ä»¤æ¥å°±è¡Œï¼Œä¹‹åä½¿ç”¨git push -u origin masteræ¥æ›´æ–°
+(13)å…‹éš†è¿œç¨‹åº“
+	å…ˆå»ºgithubä»£ç ä»“åº“ï¼Œç„¶åä½¿ç”¨git clone git@github.com:qymeng/<ä»“åº“å>.git
