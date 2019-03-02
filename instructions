@@ -23,3 +23,4 @@
 (11)创建SSH Key
 	ssh-keygen -t rsa -C "<email>"
 (12)添加远程库
+	关联根据github命令来就行，之后使用git push -u origin master来更新
