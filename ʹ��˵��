@@ -13,4 +13,13 @@
 	git log
 (7)查看命令历史
 	git reflog
-
+(8)丢弃工作区的修改,回到最近一次git commit或git add时的状态
+	git checkout -- <file>
+(9)将文件撤出暂存区
+	git reset HEAD <file>
+(10)从版本库中删除文件
+	git rm <file>(若本地已经先删除文件，也可用git add <file>)
+	git commit -m <message>
+(11)创建SSH Key
+	ssh-keygen -t rsa -C "<email>"
+(12)添加远程库
