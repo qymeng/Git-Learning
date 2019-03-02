@@ -1,0 +1,16 @@
+(1)初始化一个仓库
+	git init
+(2)添加文件到仓库
+	git add <file1,file2,...>
+	git commit -m <message>
+(3)查看工作区状态
+	git status
+(4)查看文件修改情况
+	git diff <file>
+(5)版本穿梭
+	git reset --hard <commit_id>	特殊地，HEAD^,HEAD^^,...
+(6)查看版本历史
+	git log
+(7)查看命令历史
+	git reflog
+
