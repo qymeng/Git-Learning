@@ -50,9 +50,10 @@
 		查看分支：	git branch，有 * 的为当前分支
 		创建分支：	git branch <name>
 		切换分支：	git checkout <name>
+		删除分支：	git branch -d <name>
 		创建并且切换分支：	git branch -b <name>
 		合并分支到当前分支:	git merge <name>
-		删除分支：	git branch -d <name>
+		
 (15)解决冲突
 -------------------------
 		在不同分支上对同一文件修改后要合并分支，需要先解决冲突
@@ -76,19 +77,19 @@
 -------------------------
 		查看远程库信息：	git remote -v
 		从本地推送分支：	git push origin <branch-name>
-		如果推送失败： 	 先使用git pull抓取远程的新提交来解决冲突
-		克隆仓库：			 使用git clone来克隆远程库
+		如果推送失败： 	先使用git pull抓取远程的新提交来解决冲突
+		克隆仓库：		使用git clone来克隆远程库
 		建立要和远程分支对应的本地分支：git checkout -b branch-name origin/branch-name
 		建立本地分支和远程分支的关联：	 git branch --set-upstream branch-name origin/branch-name
 		从远程抓取分支：	git pull
 (20)标签管理
 -------------------------
 		标签(tag)和某个commit绑定。
-		新建标签：		      git tag <tag-name> [commit-id，默认HEAD]
-		指定标签信息:		     git tag -a <tag-name> -m "message"
-		查看所有标签：	 	    git tag
-		查看标签对应的版本信息：	git show <tag-name>
-		推送本地标签：	            git push origin <tag-name>
-		推送全部标签：	            git push origin --tags
-		删除本地标签：	            git tag -d <tagname>
-		删除一个远程标签:          git push origin :refs/tags/<tagname>	
+		新建标签：			git tag <tag-name> [commit-id，默认HEAD]
+		指定标签信息：			git tag -a <tag-name> -m "message"
+		查看所有标签：			git tag
+		查看标签对应的版本信息：		git show <tag-name>
+		推送本地标签：			git push origin <tag-name>
+		推送全部标签：			git push origin --tags
+		删除本地标签：			git tag -d <tagname>
+		删除一个远程标签：		git push origin :refs/tags/<tagname>	
